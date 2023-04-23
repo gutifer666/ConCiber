@@ -12,21 +12,21 @@
                     <a class="nav-link active" aria-current="page" href="/">Página principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/posts/1">Posts</a>
+                    <a class="nav-link active" href="/posts/page/0">Posts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="/dictionary/1">Aprende más</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/simulaciones">Simulaciones</a>
+                    <a class="nav-link active" href="/tools/password">Comprueba tu contraseña</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Referencias
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Matriz MITRA</a></li>
-                        <li><a class="dropdown-item" href="#">NISC</a></li>
+                        <li><a class="dropdown-item" href="https://attack.mitre.org/matrices/enterprise/">Matriz MITRE</a></li>
+                        <li><a class="dropdown-item" href="https://www.nisc.coop/">NISC</a></li>
                     </ul>
                 </li>
             </ul>
