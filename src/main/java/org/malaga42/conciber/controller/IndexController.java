@@ -28,9 +28,9 @@ public class IndexController {
         return "resources";
     }
 
-    @GetMapping("/tool/password")
+    @GetMapping("/tools/password")
     public String getPasswordChecker(){
-        return "password-checker";
+        return "tools/passw/index";
     }
 
     @GetMapping(value="/posts/page/{id}")

@@ -15,7 +15,7 @@
                     <a class="nav-link active" href="/dictionary/1">Aprende más</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/tools/password">Comprueba tu contraseña</a>
+                    <a class="nav-link active" href="passw/index.html   ">Comprueba tu contraseña</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="/resources">Recursos</a>
