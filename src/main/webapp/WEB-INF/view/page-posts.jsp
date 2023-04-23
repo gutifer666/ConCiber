@@ -12,7 +12,7 @@
             List<EntryEntity> entryEntityList = (List<EntryEntity>) request.getAttribute("posts");
             for (EntryEntity entry: entryEntityList) {
         %>
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <div class="card-body">
                 <h2><%=entry.getTitle()%></h2>
                 <p><%=entry.getCreateTime()%></p>

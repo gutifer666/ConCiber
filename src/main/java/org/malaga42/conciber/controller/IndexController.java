@@ -22,6 +22,12 @@ public class IndexController {
         return "index";
     }
 
+
+    @GetMapping(value="/resources")
+    public String getResources(){
+        return "resources";
+    }
+
     @GetMapping("/tool/password")
     public String getPasswordChecker(){
         return "password-checker";

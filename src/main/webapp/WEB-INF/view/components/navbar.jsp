@@ -9,9 +9,6 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Página principal</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link active" href="/posts/page/0">Posts</a>
                 </li>
                 <li class="nav-item">
@@ -20,6 +17,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="/tools/password">Comprueba tu contraseña</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/resources">Recursos</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Referencias
@@ -27,6 +27,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="https://attack.mitre.org/matrices/enterprise/">Matriz MITRE</a></li>
                         <li><a class="dropdown-item" href="https://www.nisc.coop/">NISC</a></li>
+                        <li><a class="dropdown-item" href="https://www.incibe.es/">Incibe</a> </li>
                     </ul>
                 </li>
             </ul>
