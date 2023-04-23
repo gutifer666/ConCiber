@@ -1,0 +1,36 @@
+<!DOCTYPE html5>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+    <title>Password Check</title>
+ </head>
+<body>
+
+    <div id = "formul">
+        <form id ="form_reg" action ="#" >
+            <div class = "contenido">
+                <div class = "cabecera">  
+                    <h3>Formulario de prueba de fuerza de una contraseña</h3>
+                    <p>Por favor, rellene el campo con la contraseña a probar</p>
+                </div>
+                
+                <input type = "password" name = "passw" id = "passw" placeholder = "   contraseña" required onchange = mostrarBoton();><br/>
+                
+                <input type = "password" name = "passwr" id = "passwr" placeholder = "   repita la contraseña" required onchange = mostrarBoton();><br/>
+                <p id = "oculto">Las contraseñas no coinciden</p>
+                
+                <!--
+
+                    <input type = "date" name = "fecha_nac" id = "fecha_nac" placeholder = " fecha de nacimiento" required onchange = mostrarBoton();><br/>
+                    <input type = "hidden" id = "accion" name = "accion" value = "reg">
+                -->
+                
+                <button disabled id = "boton" onclick = checkPass();>Comprobar</button>
+                <p id = "ocultoP"></p>
+            </div>
+        </form>
+    </div>
+    <script src ="./js/scripts.js"></script>
+
+</body>
+</html>

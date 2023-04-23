@@ -1,0 +1,90 @@
+@font-face 
+{
+    font-family: cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+
+#formul
+{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20 30 40 20;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: table;
+    background-color: #fff;
+}
+
+.contenido
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#form_reg
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cabecera
+{
+    margin-bottom: 20px;
+    color: #000;
+    font-family: cabin;
+    font-size: large;
+}
+form input
+{
+    margin: 2px 5px 7px 5px;
+    height: 2em;
+    width: 22em;
+}
+
+form label
+{
+    margin: 7px 5px 2px 5px;
+    font-family: cabin;
+    color: #000;
+}
+
+form button
+{
+    margin: 5px;
+    height: 2em;
+    padding: 5px;
+}
+
+#oculto
+{
+    display: none;
+    color: red;
+    font-family: cabin;
+    font-size: small;
+    margin-top: 0.5em;
+}
+
+#ocultoP
+{
+    display: none;
+    color: grey;
+    font-family: cabin;
+    font-size: large;
+    margin-top: 1.2em;
+}
+
+#boton_reg2
+{
+    margin: 1% auto;
+    padding: 0.6em;
+    width: 5em;
+    display: none;
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+}
